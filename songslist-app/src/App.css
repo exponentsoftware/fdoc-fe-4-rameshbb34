@@ -1,0 +1,82 @@
+.addalbum-container{
+  text-align: center;
+}
+
+.formdata{
+  padding-left: 150px;
+
+}
+
+.home {
+  text-align: center;
+}
+
+.App-header {
+  padding-top: 2em;
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: yellow;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cards{
+  padding: 16px;
+  text-align: center;
+}
+
+.album{
+  color: white;
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.searchbar input{
+  width: 300px;
+  height: 40px;
+  margin-right: 50px;
+  margin-top: 2em;
+  /* width: 2em; */
+}
+
+.topbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.addalbum{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar{
+display: flex;
+justify-content: space-evenly;
+background: green;
+}
+
+.navlink{
+  color: wheat;
+
+}
